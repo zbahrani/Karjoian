@@ -11,12 +11,7 @@ namespace Application.User
     {
         Task<List<UserEntity>> GetAllUsersAsync();
         Task<UserEntity?> GetUserByIdAsync(int id);
-
-        
         Task<bool> AddUserAsync(UserEntity user);
-
-       
         Task<bool> DeleteUserAsync(int id);
     }
-}
 }
