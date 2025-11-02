@@ -1,4 +1,4 @@
-﻿namespace Domain.Enum
+﻿namespace Domain.Entities.Enum
 {
     public enum DayEnum
     {
